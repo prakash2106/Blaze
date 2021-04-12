@@ -11,6 +11,7 @@ public class Blaze extends BaseClassProject{
 	private void browserLaunch() {
     getdriver();
     launchUrl("https://blazedemo.com/");
+		//test new pull
 	}
 	@Parameters({"Departure city","Destination City"})
 	@Test
